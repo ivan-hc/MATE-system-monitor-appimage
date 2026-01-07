@@ -225,7 +225,7 @@ rm -Rf AppDir/share/man # AppImages are not ment to have man command
 URUNTIME="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/uruntime2appimage.sh"
 
 export APPNAME=$(cat AppDir/*.desktop | grep '^Name=' | head -1 | cut -c 6- | sed 's/ /-/g')
-export REPO="$APPNAME-appimage"
+export REPO="MATE-system-monitor-appimage"
 export TAG="latest"
 export UPINFO="gh-releases-zsync|$GITHUB_REPOSITORY_OWNER|$REPO|$TAG|*x86_64.AppImage.zsync"
 
