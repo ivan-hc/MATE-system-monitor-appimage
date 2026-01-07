@@ -16,7 +16,7 @@ LIBSAVED="SAVELIBSPLEASE"
 # Some keywords and paths are already set. Remove them if you consider them necessary for the AppImage to function properly.
 ETC_REMOVED="makepkg.conf pacman"
 BIN_REMOVED="gcc"
-LIB_REMOVED="gcc"
+LIB_REMOVED="gcc libgallium"
 PYTHON_REMOVED="__pycache__/"
 SHARE_REMOVED="gcc"
 
